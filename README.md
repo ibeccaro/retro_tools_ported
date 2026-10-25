@@ -4,7 +4,7 @@ To Linux/Unix. Debian 12 was used as development platform, but since from Debian
 is dropped, may need to be built under older linux releases
 
 ## APRIDISK
-Starting with disasembling the original executable and trying reconstructing the original code in Borland C++
+Started disassembling the original executable and trying reconstructing the original code in Borland C++
 Proceeded to generate a C equivalent code starting from assembly, with its own makefile
 
 Still untested in real fdd writing it compiles fine and reads apridisk dsk images placed in disks subdirectory

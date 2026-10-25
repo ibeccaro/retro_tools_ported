@@ -1,0 +1,207 @@
+
+<!-- saved from url=(0052)https://actapricot.org/support/apridisk/apridisk.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>Apridisk Instructions</title>
+</head>
+
+<body>
+
+<h1>Apridisk Instructions</h1>
+
+<h3>About APRIDISK</h3>
+APRIDISK is a utility which allows you to save (archive) and restore (create) ACT Apricot disks.
+Each disk can be saved to a file (normally on a hard disk). From there it can be
+restored to another disk or archived further (eg to tape).
+Disks can also be emailed, posted on the WWW, etc.  Obviously care must be taken
+to avoid copyright infringment.
+<br>
+APRIDISK is written by Jonathan Marsters. Jonathan Marsters claims copyright and
+retains all rights for APRIDISK.
+
+<h3>APRIDISK licence</h3>
+APRIDISK may be used by anybody for any purpose. It may be freely distributed as
+long as this file is distributed with it.
+<br>
+APRIDISK is provided with no warranty.  I will not be held responsible for any
+damage or loss, direct or indirect from it's use.
+<br>
+As with all programs downloaded from the Internet, use your own judgement and
+security procedures including virus and trojan checks before using APRIDISK.
+Although I endevour to ascertain that the program is correct and virus free,
+it may not be either correct or virus free.
+<br>
+Downloading and using APRIDISK does not ensure availability of technical support.
+However, for help, please post to the discussion list advertised on the
+<a href="http://www.actapricot.org/apricot.html">ACT Apricot support site</a>
+at www.actapricot.org/apricot.html.
+Feel free to post bug reports, comments and suggestions.
+
+<h3>Operating requirments</h3>
+<u>Computer:</u>
+APRIDISK runs on IBM PC/AT compatibles as a DOS program.  Sorry, I do not have Mac or Linux versions.
+<br>
+<u>Drives:</u>
+It should run on any compatible with a 720K or 1.44M 3.5" floppy drive.  APRIDISK is tested using 1.44M 3.5" floppy drives.
+<br>
+<u>Operating System:</u>
+<br>
+MS-DOS: It should run under any MS-DOS version (eg 3,5,6 or PC-DOS).
+<br>
+Windows 95: APRIDISK runs well under a command prompt on WIndows 95.
+<br>
+Windows 98: APRIDISK runs well under a command prompt on WIndows 98.  This is the primary testing platform.
+<br>
+Windows ME: Untested.
+<br>
+Windows 2000: I have got it to run successfully under a Windows 2000 command prompt.
+<br>
+Windows NT: It is unlikely to run under Windows NT but go ahead and give it a try.
+<br>
+OS/2: I have no idea whether it will work under OS/2.
+
+<h3>Media requirements (floppy disks)</h3>
+APRIDISK can read and write both DSDD ("double density") or DSHD ("high density") disks.  The original Apricots used various double density formats.  The much later IBM PC compatible Apricots used high density disks and therefore support for these is provided for completeness.
+<br>
+<br>
+APRIDISK will tell you which disk type you need to use for a particular disk image (".DSK" file).
+<br>
+<u>Double density formats</u>
+<br>
+APRIDISK will read 3.5" single sided (360K) or double sided (720K) ACT Apricot disks.  APRIDISK can read both 70 track or 80 track formats.
+<br>
+Destination disks must be 3.5" 720K disks. IBM compatible "DS DD" or "1.0 MB"
+disks are ideal.  Don't waste your time trying to use DS HD (1.44M) disks.
+Destination disks must be pre-formatted before APRIDISK can write to them - see below.
+<br>
+<u>High density formats</u>
+<br>
+Supported high density formats are PC compatible and therefore any PC formatted DSHD (1.44M) are suitable.  Do not use Mac formatted DSHD discs.
+Destination disks must be pre-formatted before APRIDISK.  Either purchase preformatted DSHD disks or format them with the PC (format as high density 1.44M).
+<br>
+<br>
+
+
+
+
+<h3>Formatting Apricot DSDD disks</h3>
+APRIDISK does not yet format disks.  In order to create Apricot disks with
+APRIDISK, they must be formatted first.  If possible, format disks with the
+Apricot.  If not possible, use an IBM PC compatible.
+
+<h4>Formatting with the Apricot</h4>
+The disks should be formatted with an inter-sector gap of 80 bytes rather than
+the 30 or 40 bytes that is typical on IBM compatibles.
+I WILL be including the formatting code in APRIDISK as soon as I feasibly can.
+<br>Use the FORMAT option available in the startup menu system to format disks.
+
+<h4>Formatting with the IBM compatible PC</h4>
+If you can't format disks with your Apricot, IBM formatted disks usually seem to
+work.  At least, they seem to work with my
+Apricot Xi so they may be fine with all the machines.  I suspect the performance is lower when used on the Apricot.
+<br>Purchasing preformatted "IBM Format" 720K disks is the same as formatting them yourself -
+if you can find DSDD disks then they are normally available preformatted for IBM.  Don't use the preformatted for Mac disks.
+
+
+<h4>Formatting service</h4>
+If you can't format with your Apricot (eg you haven't got a boot disk or the FORMAT program)
+and IBM formatted disks don't work after
+writing with APRIDISK, I can format a few disks for you.
+Send me a box of disks as specified above (720K disks)
+and I will format them for you and send them back.
+Please include some money for the return postage. It can be in any currency but
+please send notes only (no coins).
+Also, put a note in with the disks saying whether your Apricot drives are single
+sided or double sided.  If you don't know, have a look underneath the Apricot.
+Sometimes there will be a sticker saying "SINGLE" or "SINGLE SIDED" or "DOUBLE" etc.
+If not, take the Apricot apart.  The sticker should be on the top of the disk
+drive itself.
+
+
+
+<h3>How to use it.</h3>
+OK, first released version, not everything works.
+These options work:
+<ul>
+ <li>R Read one floppy to file
+ </li><li>W Write one floppy from file
+ </li><li>I Information on disk in drive
+ </li><li>Q (or ESCape) Quit Apridisk
+</li></ul>
+
+<h4>To write an Apricot disk from a file</h4>
+<ol>
+ <li>Find a suitable disk (see Media Requirements above)
+ </li><li>Format it if necessary as per formatting instructions above.
+ </li><li>Insert the disk into the IBM PC compatible
+ </li><li>Start APRIDISK on the IBM PC compatible
+ </li><li>Press W ("Write one floppy from file")
+ </li><li>Type in the name or number of the disk you want to create. If it one of the
+     numbered disks, you may just type in the number. Eg for APR00123.dsk,
+     just type the number "123"; for boot.dsk, just type "boot".
+ </li><li>Press Enter to complete the disk name. APRIDISK will now write the disk.
+</li></ol>
+
+<h4>To read an Apricot disk to a file</h4>
+<ol>
+ <li>Insert the Apricot disk (any format) into the IBM PC compatible
+ </li><li>Start APRIDISK on the IBM PC compatible
+ </li><li>Press R ("Read one floppy to a file")
+ </li><li>Type in the name of the disk you want to create.
+     Eg for boot.dsk, just type "boot".
+ </li><li>Press Enter to complete the disk name.
+ </li><li>Type a comment (description of the disk). I suggest typing in whatever
+     is written on the disk label.  If this isn't descriptive, you can always
+     type more.
+ </li><li>APRIDISK will now read the disk and save it to the file you specified.
+</li></ol>
+
+
+
+
+<h3>Disk naming</h3>
+APRIDISK supports two filename conventions:
+<br>
+1) Numbered disks (posted on web site)
+<pre>APRnnnnn.dsk
+</pre>
+<br>
+2) DOS (8.3) conforming free-format name with .dsk extension
+<pre>xxxxxxxx.dsk
+</pre>
+
+
+
+
+<h3>If you have problems</h3>
+Make sure that:
+<ul>
+ <li>you are using the latest version of Apridisk.
+ </li><li>your blank floppy drive reads, writes and formats correctly with DOS or Windows or
+ </li><li>...the floppy you are trying to read actually works in your Apricot (if possible)
+</li></ul>
+If you've still got problems, email to the discussion list with:
+<ul>
+ <li>Your full name and return address (email or real)
+ </li><li>A description of your problem including the exact error messages if any.
+ </li><li>A description of your computer (processor, operating system, make, model etc).
+ </li><li>A list of your floppy disk drives
+ </li><li>The name of the file that you are trying to write from the archive or
+ </li><li>...a description of the disk you are trying to read.
+</li></ul>
+
+<h3>Future improvements to APRIDISK</h3>
+Anything is possible, given time.  I don't have much spare time but I will try
+to make these improvements.
+<ol>
+ <li>Bad-sector handling could be better.  Disk can be read but not written.
+ </li><li>Weird formats.  I am discovering some unusual disk formats that aren't
+     specified in my Apricot manuals.  As I discover them and work out how to
+     distinguish them, I will add support to Apridisk.
+ </li><li>Better user interface.  The APRIDISK user interface is very basic and
+     could do with improving.  In particular, it's impossible to see the disk
+     comments.
+<!--0L-->
+
+
+
+</li></ol></body></html>

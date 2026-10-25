@@ -1,7 +1,7 @@
 # Retrocomputing tools ported under Linux by Claude
 This is a collection of existing retrocomputing tools, mainly existing under MS-DOS/Windows and ported
-To Linux/Unix. Debian 12 was used as development platform, but since from Debian 10 raw FDD commands support
-is dropped, may need to be built under older linux releases
+To Linux/Unix. Debian 12 was used as development platform, but since starting with Debian 11 raw FDD commands support
+is dropped, may need to be built under older releases, like Debian 10.
 
 ## APRIDISK
 Started disassembling the original executable and trying reconstructing the original code in Borland C++

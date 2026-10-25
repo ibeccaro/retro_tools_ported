@@ -3,7 +3,7 @@ This is a collection of existing retrocomputing tools, mainly existing under MS-
 To Linux/Unix. Debian 12 was used as development platform, but since starting with Debian 11 raw FDD commands support
 is dropped, may need to be built under older releases, like Debian 10.
 
-## APRIDISK
+## APRIDISK by Jonathan Marsters
 Started disassembling the original executable and trying reconstructing the original code in Borland C++
 Proceeded to generate a C equivalent code starting from assembly, with its own makefile
 
